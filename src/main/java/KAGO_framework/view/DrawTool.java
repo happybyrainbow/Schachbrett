@@ -89,12 +89,8 @@ public class DrawTool {
 
     /**
      * Zeichnet ein gefuelltes Rechteck
-     * @param x Die x-Koordinate der oberen linken Ecke
-     * @param y Die y-Koordinate der oberen linken Ecke
-     * @param width Die Breite
-     * @param height Die Hoehe
      */
-    public void drawFilledRectangle(double x, double y, double width, double height){
+    public void drawFilledRectangle(double x , double y,double width,double height){
         Rectangle2D.Double r = new Rectangle2D.Double(x,y,width,height);
         if (graphics2D!= null) graphics2D.fill(r);
     }
